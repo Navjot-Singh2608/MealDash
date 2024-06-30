@@ -7,12 +7,12 @@ export const categories = [
   {
     id: 2,
     name: "Burger",
-    image: require("../assets/images/pizzaIcon.png"),
+    image: require("../assets/images/burger.png"),
   },
   {
     id: 3,
     name: "Italian",
-    image: require("../assets/images/pizzaIcon.png"),
+    image: require("../assets/images/italian.png"),
   },
   {
     id: 4,
@@ -27,7 +27,7 @@ export const categories = [
   {
     id: 6,
     name: "Sweets",
-    image: require("../assets/images/pizzaIcon.png"),
+    image: require("../assets/images/sweets.png"),
   },
 ];
 
