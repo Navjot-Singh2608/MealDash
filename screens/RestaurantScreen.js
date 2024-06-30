@@ -51,7 +51,7 @@ export default function RestaurantScreen() {
             <View className="flex-row space-x-2 my-l">
               <View className="flex-row items-center space-x-l">
                 <Image
-                  source={require("../assets/images/fullStar.png")}
+                  source={require("../assets/images/restaurant.jpg")}
                   className="h-4 w-4"
                 />
                 <Text className="text-xs">

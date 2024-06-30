@@ -55,7 +55,7 @@ export default function CartScreen() {
         className="flex-row px-4 items-center"
       >
         <Image
-          source={require("../assets/images/bikeGuy.png")}
+          source={require("../assets/images/restaurant.jpg")}
           className="w-20 h-20 rounded-full"
         />
         <Text className="flex-1 pl-4">Deliver in 20-30 minutes</Text>
