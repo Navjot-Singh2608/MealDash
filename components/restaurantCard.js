@@ -13,7 +13,7 @@ import { useNavigation } from "@react-navigation/native";
 export default function RestaurantCard({ item }) {
   const navigation = useNavigation();
   return (
-    <View>
+    <View className="shadow-lg">
       <TouchableWithoutFeedback
         onPress={() => navigation.navigate("Restaurant", { ...item })}
       >
@@ -22,7 +22,7 @@ export default function RestaurantCard({ item }) {
             shadowColor: themeColors.bgColor(0.2),
             shadowRadius: 7,
           }}
-          className="mr-6 bg-white rounded-3xl shadow-lg"
+          className="mr-1 bg-gray-100 p-2 rounded-3xl shadow-lg"
         >
           <Image className="h-36 w-64 rounded-t-3xl" source={item.image} />
           <View className="px-3 pb-4 space-y-2">
