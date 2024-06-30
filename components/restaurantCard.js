@@ -29,7 +29,7 @@ export default function RestaurantCard({ item }) {
             <Text className="text-lg font-bold pt-2">{item.name}</Text>
             <View className="flex-row items-center space-x-l">
               <Image
-                source={require("../assets/images/fullStar.png")}
+                source={require("../assets/images/restaurant.jpg")}
                 className="h-4 w-4"
               />
               <Text className="text-xs">

@@ -46,7 +46,14 @@ const HomeScreen = () => {
         {/* featured */}
         <View className="mt-5">
           {[featured, featured, featured].map((item, index) => {
-            return <FeaturedRow />;
+            return (
+              <FeaturedRow
+                key={index}
+                title={item.title}
+                restaurants={item.restaurants}
+                description={item.description}
+              />
+            );
           })}
         </View>
       </ScrollView>
